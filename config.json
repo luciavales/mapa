@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "BirdLife Internartional"
+  },
+  "text": {
+    "more": "The organizations shown here have a direct or indirect influence in the implementartion of conservation strategies in the Atlantic Forest ecosystem in the South American region. The nodes represent the organizations, and the links show two oprganizations are working together or have an institutional relationship. Click on the nodes to see more information.",
+    "intro": "Stakeholder map showing relevant organizations on conservation of the Atlantic Forest in Argentina, Brazil and Paraguay.",
+    "title": "Atlantic Forest stakeholders"
+  },
+  "legend": {
+    "edgeLabel": "Relationship",
+    "colorLabel": "country",
+    "nodeLabel": "Organizations working on the Atlantic Forest"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
